@@ -190,6 +190,11 @@ margin-top: 48px;
 #banner-title, #goat{
     margin-right: 50px;
 }
+.online-games-img-container{
+    grid-template-columns: 1fr;
+   
+}
+
 
     
 }
@@ -203,5 +208,8 @@ margin-top: 48px;
         justify-content: center;
         align-items: center;
     }
+.online-games-img-container{
+    grid-template-columns: repeat(2,1fr);
+}
     
 }
