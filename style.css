@@ -280,7 +280,8 @@ font-weight: 500;
 line-height: normal;
 }
 .cookies{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     width: 708px;
     margin-left: 420px;
     gap: 60px;
@@ -400,4 +401,21 @@ margin-top: 56px;
     grid-template-columns: repeat(3,1fr);
     margin: 0 auto;
 }
+.service-type{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 0;
+    width: auto;
+}
+.cookies{
+    width: auto;
+    margin-left: 0;
+}
+footer{
+    width: auto;
+    height: 736px;
+}
+.copy-right-line{
+    margin-top: 0;
+}
+
 }
