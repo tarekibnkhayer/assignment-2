@@ -368,6 +368,25 @@ margin-top: 56px;
 .icome-name{
     font-size: 8px;
 }
+.service-type{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 0;
+    width: auto;
+}
+.cookies{
+    width: auto;
+    margin-left: 0;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+    margin-bottom: 60px;
+}
+footer{
+    width: 482px;
+    height: 836px;
+}
+.copy-right-line{
+    margin-top: 0;
+}
 
 
 
