@@ -328,4 +328,8 @@ line-height: normal;
 .play-games{
     margin-right: 200px;
 }
+.icome{
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+}
 }
