@@ -200,7 +200,26 @@ right: 180px;
 .play-games-img-container{
     margin-left: 140px;
 }
-
+/* icome section=9 icon & name section*/
+.icome-items{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.icome{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    margin:200px 160px ;
+}
+.icome-name{
+    color: #0B0223;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
 
 
