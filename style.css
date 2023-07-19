@@ -131,6 +131,40 @@ margin-bottom: 0;
 .banner-button{
     margin-left: 20px;
 }
+/* main */
+/* online games section */
+#funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.online-games{
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+online-games p{
+    margin-top: 16px;
+}
+.online-games-img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+max-width: 1440px;
+margin-left: 40px;
+margin-top: 48px;
+ 
+}
+.online-games-img-container img{
+    width: 342px;
+    height: 404px;
+    border-radius: 16px;
+}
 
 
 
